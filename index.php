@@ -1,4 +1,5 @@
 <?php 
+// Blqblq	
 require_once 'data/_data.php';
 $emp_id = 102; // Employé "par défaut"
 // TODO: Lire et mettre à jour l'id de l'employé en Query string
