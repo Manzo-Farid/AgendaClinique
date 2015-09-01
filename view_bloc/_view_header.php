@@ -5,6 +5,11 @@
     <ul>
         <?php
         // TODO: Afficher le menu-liste des employés
+
+				foreach ($liste_employes as  $v) {
+                    echo "<li>", $v['emp_name'], "</li>";
+                }
+
         ?>
     </ul>
     </div>

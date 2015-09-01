@@ -19,15 +19,15 @@ $agenda = get_agenda($emp_id);
 		<table>
 			<tr><th>Heure</th><th>Activité</th></tr>	
 <?php
-
 // TODO: Afficher l'agenda de l'employé
 
 
 foreach ($agenda as $k =>$v) {
 	echo '<tr><th>',$k ,'</th>','<td>',$v,'</td></tr>';
 }
-
 ?>
+
+
 
 		</table>
 	</div>
