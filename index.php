@@ -2,7 +2,8 @@
 // Blqblq	
 require_once 'data/_data.php';
 $emp_id = 102; // Employé "par défaut"
-// TODO: Lire et mettre à jour l'id de l'employé en Query string
+
+
 $liste_employes = get_employes(); // Liste des noms de tous les employés
 $emp_data = $liste_employes[$emp_id];
 $agenda = get_agenda($emp_id);
