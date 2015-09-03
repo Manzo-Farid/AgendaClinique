@@ -26,7 +26,7 @@ if(array_key_exists('submit_form', $_POST)){
   $agenda['15']=$activites[$_POST['15']];
 
   set_agenda($emp_id, $agenda);
-  header('Location: index.php?' . PARAM_EMP_ID. '='. $emp_id);
+  header('Location: index.php' . PARAM_EMP_ID. '='. $emp_id);
   exit;
 }
 
@@ -110,7 +110,7 @@ if(array_key_exists('submit_form', $_POST)){
 
   </form>
   <div>
-    <input type="submit" value="submit_form" />
+    <input type="submit" name="bouton" value="submit_form" />
   </div>
 </div>
 
